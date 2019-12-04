@@ -1,0 +1,24 @@
+h1 {
+  color: #6B6B6B;
+  font-size: 25px;
+  font-family: segoe UI, sans-serif;
+
+}
+h2 {
+  font-family: "segoe UI light", sans-serif;
+  word-wrap: break-word;
+}
+p1 {
+  color: 030303;
+  font-family: "segoe UI", sans-serif;
+  font-size: 17px;
+}
+body {
+  padding-top: 56px;
+}
+btn-primary {
+  color: #6B6B6B;
+}
+btn-secondary {
+  color: #6B6B6B;
+}
