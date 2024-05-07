@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/gallery.css"/>
+    <title>Anna Beck Cartography</title>
+</head>
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Anna Beck maps</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+        <span class="menu">Menu</span>
+      </button>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="assets/ABeck CV2024 v3.pdf">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- A Lightbox is basically a slider (carousel) inside of a modal.
+
+  Todos: fix active class (when you click on a photo, carousel in modal reverts to first slide) 
+ *solution: added data-slide-to and data-target to imgs
+-->
+<br>
+<div class="container">
+    <div class="row d-flex flex-wrap align-items-center" data-toggle="modal" data-target="#lightbox">
+      <div class="col-12 col-md-6 col-lg-3">
+        
+    <img src="assets/Map2_SouthernRashtDistrict_621.png" data-target="#indicators" data-slide-to="0" alt="" /> 
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+           <img src="assets/Abeck_572_lab2_JT_v3_clip.png" data-target="#indicators" data-slide-to="1" alt="" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+         <img src="assets/18_trade_base_v4_clip.png" data-target="#indicators" data-slide-to="2"  alt="" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+           <img src="assets/Beck-Cronon original land entries 1800-1943 v3.png" data-target="#indicators" data-slide-to="3" alt="" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+           <img src="assets/Beck_final_v16.png" data-target="#indicators" data-slide-to="4"  alt="" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+           <img src="assets/bison_decline_v3_clip.png" data-target="#indicators" data-slide-to="5" alt="" />
+      </div>
+   
+    <div class="col-12 col-md-6 col-lg-3">
+      <img src="assets/US slave trade v4_title.png" data-target="#indicators" data-slide-to="6" alt="" />
+ </div>
+
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/Us_mex_border_maquila_factory_v2.png" data-target="#indicators" data-slide-to="7" alt="" />
+</div>
+
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/Zambia eastern province study sites.png" data-target="#indicators" data-slide-to="8" alt="" />
+</div>
+
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/ecoregions 5_clip.png" data-target="#indicators" data-slide-to="9" alt="" />
+</div>
+
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/Transcontinental RR v7_clip.png" data-target="#indicators" data-slide-to="10" alt="" />
+</div>
+
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/tradewinds_v3.png" data-target="#indicators" data-slide-to="11" alt="" />
+</div>
+
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/California missions v5.png" data-target="#indicators" data-slide-to="12" alt="" />
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/Colonial_Frontiers_1700-1760_v14_clip.png" data-target="#indicators" data-slide-to="13" alt="" />
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/Trin_malawi_catchment_final_sized.png" data-target="#indicators" data-slide-to="14" alt="" />
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/fife map final.png" data-target="#indicators" data-slide-to="15" alt="" />
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/indian removal 1829-1850 v5.png" data-target="#indicators" data-slide-to="16" alt="" />
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/NA subsistence types v12 clip.png" data-target="#indicators" data-slide-to="17" alt="" />
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/rice systems v2.png" data-target="#indicators" data-slide-to="18" alt="" />
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/s ag 1860 v7 title.png" data-target="#indicators" data-slide-to="19" alt="" />
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/Scotland map final.png" data-target="#indicators" data-slide-to="20" alt="" />
+</div>
+<div class="col-12 col-md-6 col-lg-3">
+  <img src="assets/Underground Railroad_v5.png" data-target="#indicators" data-slide-to="21" alt="" />
+</div>
+</div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="lightbox" role="dialog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close text-right p-2" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          <div id="indicators" class="carousel slide" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#indicators" data-slide-to="0" class="active"></li>
+        <li data-target="#indicators" data-slide-to="1"></li>
+        <li data-target="#indicators" data-slide-to="2"></li>
+        <li data-target="#indicators" data-slide-to="3"></li>
+        <li data-target="#indicators" data-slide-to="4"></li>
+        <li data-target="#indicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active">
+          
+          <img class="d-block w-100" src="assets/Map2_SouthernRashtDistrict_621.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/Abeck_572_lab2_JT_v3_clip.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/18_trade_base_v4_clip.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/Beck-Cronon original land entries 1800-1943 v3.png" alt="Fourth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/Beck_final_v16.png" alt="Fifth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/bison_decline_v3_clip.png" alt="Sixth slide">
+        </div>
+      
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/US slave trade v4_title.png" alt="Seventh slide">
+      </div>
+    
+    <div class="carousel-item">
+      <img class="d-block w-100" src="assets/Us_mex_border_maquila_factory_v2.png" alt="Eighth slide">
+    </div>
+ 
+  <div class="carousel-item">
+    <img class="d-block w-100" src="assets/Zambia eastern province study sites.png" alt="Ninth slide">
+  </div>
+
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/Trin_malawi_catchment_final_sized.png" alt="Tenth slide">
+</div>
+
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/ecoregions 5_clip.png" alt="Eleventh slide">
+</div>
+
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/tradewinds_v3.png" alt="Twelfth slide">
+</div>
+
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/California missions v5.png" alt="Thirteenth slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/Colonial_Frontiers_1700-1760_v14_clip.png" alt="Fourteenth slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/Trin_malawi_catchment_final_sized.png" alt="Fifteenth slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/fife map final.png" alt="Sixteenth slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/indian removal 1829-1850 v5.png" alt="Seventeenth slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/NA subsistence types v12 clip.png" alt="Eighteenth slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/rice systems v2.png" alt="Nineteenth slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/s ag 1860 v7 title.png" alt="Twentieth slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/Scotland map final.png" alt="Twenty-first slide">
+</div>
+<div class="carousel-item">
+  <img class="d-block w-100" src="assets/Underground Railroad_v5.png" alt="Twenth-second slide">
+</div>
+</div>
+      <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#indicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+        </div>
+      </div>
+    </div>
+                             </div>
+                             <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+                             <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.3/umd/popper.min.js'></script>
+                             <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js'></script>
+                             </body>
+                             </html>
