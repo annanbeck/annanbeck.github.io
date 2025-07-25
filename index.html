@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css"/>
-    <link href="lib/jquery-3.4.1.min.js">
+    
     <title>Anna Beck Cartography</title>
 </head>
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Anna (Beck) Lawler maps</a>
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      </button>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav ml-auto">
-          
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Home</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="assets/ABeck CV2025 GIS Final.pdf">CV</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="gallery.html">Gallery</a></li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container position-relative">
+    <a class="navbar-brand" href="index.html">Anna (Beck) Lawler maps</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+      aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div id="navbar" class="collapse navbar-collapse custom-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="image-viewer.html">CV</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+<!-- Positions x button to link to home area -->
+<div class="close-wrapper">
+  <a href="index.html" class="close-button">&times;</a>
+</div>
 <div class="container">
   <div class="col-lg-3 col-md-6"> </div>
 <div class="jumbotron">
@@ -40,7 +48,7 @@
         <p class="card-text">I used javascript, html, and css to create this interative map that visualizes carceral disability in the era of climate change.</p>
       </div>
       <div class="card-footer">
-        <a href="https://annanbeck.github.io/2021_climatechange_disability/" class="btn btn-primary">More</a>
+        <a href="https://annanbeck.github.io/2021_climatechange_disability/" class="btn btn-secondary btn-text-black">More</a>
       </div>
     </div>
   </div>
@@ -53,7 +61,7 @@
         <p class="card-text">Using OneHealth principles that says ecological disturbance creates disease, this critical map visualizes where land disturbance originates.</p>
       </div>
       <div class="card-footer">
-        <a href="assets/Beck_final_v16.png" class="btn btn-primary">More</a>
+        <a href="image-viewer 2.html" class="btn btn-secondary btn-text-black">More</a>
       </div>
     </div>
   </div>
@@ -66,7 +74,7 @@
         <p class="card-text">A hyper-real topographical backdrop visualizes sites to explore in California's High Desert.</p>
       </div>
       <div class="card-footer">
-        <a href="assets/Abeck_572_lab2_JT_v3_clip.png" class="btn btn-primary">More</a>
+        <a href="image-viewer 3.html" class="btn btn-secondary btn-text-black">More</a>
       </div>
     </div>
   </div>
@@ -79,7 +87,7 @@
         <p class="card-text">I made health facility buffers and used heatmap raster data to demonstrate where Ugandans with HIV lack access to health facilities for Health Access Connect.</p>
       </div>
       <div class="card-footer">
-        <a href="assets/abeck_hiv_count_v5_clip.png" class="btn btn-primary">More</a>
+        <a href="image-viewer 4.html" class="btn btn-secondary btn-text-black">More</a>
       </div>
     </div>
   </div>
@@ -100,8 +108,12 @@
 <!-- /.container -->
 </footer>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<script src="lib/bootstrap.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 <script src="lib/scripts.js"></script>
+
+
 </body>
 </html>

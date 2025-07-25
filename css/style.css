@@ -16,10 +16,42 @@ p1 {
 body {
   padding-top: 56px;
 }
-btn-primary {
+.btn-primary {
   color: #6B6B6B;
 }
-btn-secondary {
+.btn-secondary {
   color: #6B6B6B;
+}
+
+.btn-text-black {
+  color: #1f1f1f !important;
+}
+
+.btn-text-black:hover {
+  color: white !important; /* Optional: white on hover */
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media (max-width: 991.98px) {
+  .custom-collapse {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background-color: #343a40;
+    padding: 0.5rem 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
 }
 
